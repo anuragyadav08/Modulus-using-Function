@@ -12,7 +12,7 @@ void main()
  clrscr();
  printf("Enter Number :");
  scanf("%d%d",&num1,&num2);
- s=div(num1,num2);
+ s=mod(num1,num2);
  printf("%d mod %d = %d",num1,num2,s);
  getch();
 }
